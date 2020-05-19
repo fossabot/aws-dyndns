@@ -16,6 +16,7 @@ Give your policy a meaningful name and description, you'll need to refer to it i
 ## IAM user
 Create a [new IAM user](https://console.aws.amazon.com/iam/home#/users$new?step=details), give it a user name, and select **Programmatic access** for the access type.
 ![IAM_add_user](screenshots/IAM_add_user.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobellegate%2Faws-dyndns.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobellegate%2Faws-dyndns?ref=badge_shield)
 
 Next, select **Attach existing policies directly**, find the IAM policy you just created, and click the checkbox to the right of the policy name to attach it to your user.
 ![IAM_set_permissions](screenshots/IAM_set_permissions.png)
@@ -58,3 +59,7 @@ optional arguments:
   --zone ZONE, -z ZONE  AWS hosted zone id
   --ttl TTL             Record TTL
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frobellegate%2Faws-dyndns.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frobellegate%2Faws-dyndns?ref=badge_large)
